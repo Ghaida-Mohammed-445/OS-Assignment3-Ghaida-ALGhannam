@@ -1,10 +1,10 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Random;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -249,7 +249,7 @@ class Process implements Runnable {
 public class SchedulerSimulationSync {
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here
-        int studentID = 445052123; / ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
+        int studentID = 445052123; // ← CHANGE THIS TO YOUR ACTUAL STUDENT ID
 
         Random random = new Random(studentID);
 
