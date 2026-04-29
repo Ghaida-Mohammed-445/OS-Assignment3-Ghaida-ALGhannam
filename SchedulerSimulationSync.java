@@ -45,12 +45,7 @@ class SharedResources {
 
     // Method to increment context switch counter
     public static void incrementContextSwitch() {
-        contextSwitchLock.lock();
-        try {
-            contextSwitchCount++;
-        } finally {
-            contextSwitchLock.unlock();
-        }
+   
     }
 
     // Method to increment completed process counter
