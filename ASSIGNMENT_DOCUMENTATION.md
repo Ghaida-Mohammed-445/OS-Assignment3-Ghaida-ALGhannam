@@ -117,11 +117,11 @@ Document your development process with **minimum 3 entries** showing progression
 **Q**: Explain the difference between ReentrantLock and Semaphore. Where did you use each in your code and why?
 
 **Your Answer**:
-
-[Your answer here - explain your implementation choices]
-
----
-
+• Lock = only one thread can enter.
+ • Used for counters and log (need full control).
+ • Semaphore = can allow one or more threads.
+ • Semaphore(1) = same like lock (one at a time).
+ 
 ### Question 3: Deadlock Prevention
 **Q**: What is deadlock? Explain TWO prevention techniques and what you did to prevent deadlocks in your code.
 
