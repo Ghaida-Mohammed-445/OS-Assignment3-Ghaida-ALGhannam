@@ -46,16 +46,16 @@ Document your development process with **minimum 3 entries** showing progression
 
 ---
 
-### Entry 2 - [Date, Time]
-**What I implemented**: 
+### Entry 2 - 28 April 2026 10:00
+**What I implemented**: Task 1 - Added ReentrantLock to protect the three counter variables: contextSwitchCount, completedProcessCount, and totalWaitingTime.
 
-**Challenges encountered**: 
+**Challenges encountered**: Understanding how to use try-finally to ensure the lock is always released even if an exception occurs.
 
-**How I solved it**: 
+**How I solved it**: Wrapped every lock() call with try-finally so unlock() always runs in the finally block.
 
-**Testing approach**: 
+**Testing approach**: Ran the program multiple times and verified the counter values were consistent across runs.
 
-**Time spent**: 
+**Time spent**: 60 minutes
 
 ---
 
