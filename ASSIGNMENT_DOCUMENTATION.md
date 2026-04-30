@@ -33,16 +33,16 @@
 
 Document your development process with **minimum 3 entries** showing progression:
 
-### Entry 1 - [Date, Time]
-**What I implemented**: 
+### Entry 1 - 28 April 2026 9:00
+**What I implemented**:Forked the repository and set up the project in VS Code. Changed studentID to my actual student ID. 
 
-**Challenges encountered**: 
+**Challenges encountered**: Had to find the correct line in SchedulerSimulationSync.java to change the student ID.
 
-**How I solved it**: 
+**How I solved it**: Searched for "studentID" in the file and changed the value to my actual ID.
 
-**Testing approach**: 
+**Testing approach**: Compiled and ran the program to verify it starts without errors.
 
-**Time spent**: 
+**Time spent**: 30 minutes
 
 ---
 
