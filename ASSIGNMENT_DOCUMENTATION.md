@@ -142,9 +142,10 @@ Result: avoid program freezing.
 - Given that the three counters are independent, which approach provides better concurrency and why?
 
 **Your Answer**:
-
-[Your answer here - explain coarse-grained vs fine-grained locking, independence of counters, concurrency implications. Show understanding of when to use each approach. 5-8 sentences expected.]
-
+Used 3 locks, one for each counter.
+Reason: counters are independent (no need to wait).
+Allows threads to work at the same time (better speed).
+Trade-off: more code, but better concurrency than one big lock.
 ---
 
 ## Part 3: Synchronization Analysis (1 mark)
