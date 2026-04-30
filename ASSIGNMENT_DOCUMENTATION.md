@@ -121,14 +121,17 @@ Document your development process with **minimum 3 entries** showing progression
  • Used for counters and log (need full control).
  • Semaphore = can allow one or more threads.
  • Semaphore(1) = same like lock (one at a time).
+
+
+---
  
 ### Question 3: Deadlock Prevention
 **Q**: What is deadlock? Explain TWO prevention techniques and what you did to prevent deadlocks in your code.
 
-**Your Answer**:
-
-[Your answer here - reference try-finally blocks, lock ordering, etc.]
-
+Deadlock = threads wait for each other forever.
+Happens when each thread holds a resource.
+Solution: use same lock order or timeout.
+Result: avoid program freezing.
 ---
 
 ### Question 4: Lock Granularity Design Decision 
