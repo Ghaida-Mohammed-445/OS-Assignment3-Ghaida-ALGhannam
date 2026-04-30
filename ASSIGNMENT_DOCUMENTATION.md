@@ -152,15 +152,22 @@ Trade-off: more code, but better concurrency than one big lock.
 
 ### Critical Section #1: Counter Variables
 
-**Which variables**: 
+**Which variables**: : contextSwitchCount, completedProcessCount, totalWaitingTime.
 
-**Why they need protection**: 
+**Why they need protection**:  operations like ++ are not atomic (can lose updates).
 
-**Synchronization mechanism used**: 
+**Synchronization mechanism used**:  operations like ++ are not atomic (can lose updates).
 
 **Code snippet**:
 ```java
-// Paste your implementation here
+public static void incrementContextSwitch() {
+        contextSwitchLock.lock();
+        try {
+            contextSwitchCount++;
+        } finally {
+            contextSwitchLock.unlock();
+        }
+    }
 ```
 
 **Justification**: 
