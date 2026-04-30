@@ -106,7 +106,10 @@ Document your development process with **minimum 3 entries** showing progression
 
 **Your Answer**:
 
-[Your answer here - 4-6 sentences with code examples]
+• Race condition = many threads use same data at same time.
+ • ++ is not safe → some increases can be lost.
+ • ArrayList is not thread-safe → may crash or lose data.
+ • Result: wrong numbers or missing log messages.
 
 ---
 
