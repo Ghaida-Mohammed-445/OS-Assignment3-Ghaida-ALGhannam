@@ -59,16 +59,16 @@ Document your development process with **minimum 3 entries** showing progression
 
 ---
 
-### Entry 3 - [Date, Time]
-**What I implemented**: 
+### Entry 3 - 30 April 2026 7:00
+**What I implemented**: Completed ASSIGNMENT_DOCUMENTATION.md with all 6 parts and recorded the video demonstration.
 
-**Challenges encountered**: 
+**Challenges encountered**: Organizing the documentation clearly and making sure the video covers all required points within 5 minutes.
 
-**How I solved it**: 
+**How I solved it**: Followed the assignment checklist carefully and recorded the video step by step.
 
-**Testing approach**: 
+**Testing approach**:  Ran the program 5 times to confirm consistent results before recording the video.
 
-**Time spent**: 
+**Time spent**: 4 hours
 
 ---
 
