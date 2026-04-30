@@ -171,7 +171,7 @@ public static void incrementContextSwitch() {
 ```
 
 **Justification**: 
-
+Each counter is independent, so separate locks maximise concurrency
 ---
 
 ### Critical Section #2: Execution Log
