@@ -337,11 +337,16 @@ concurrent access to the ArrayList, making it completely thread-safe.
 ### Test 3: Correctness Verification
 **What I tested**: Verifying correct final values (total burst time, context switches, etc.)
 
-**Expected values**: 
+**Expected values**: completedProcessCount should equal numProcesses
+at the end of the simulation.
 
-**Actual values**: 
 
-**Analysis**: 
+**Actual values**: The printed statistics showed completedProcessCount
+matched numProcesses exactly in every single run.
+
+**Analysis**: No increments were lost due to race conditions. The
+ReentrantLock guaranteed that every process was counted exactly once.
+
 
 ---
 
