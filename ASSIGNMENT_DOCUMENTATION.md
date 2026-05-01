@@ -351,13 +351,22 @@ ReentrantLock guaranteed that every process was counted exactly once.
 ---
 
 ### Test 4: Different Scenarios
-**Scenario tested**: [e.g., different time quantum, more processes, etc.]
+**Scenario tested**: Ran the program multiple times with the same
+student ID to observe consistency.
 
-**Purpose**: 
 
-**Results**: 
+**Purpose**: To confirm that synchronization produces deterministic
+results regardless of thread scheduling order.
 
-**What I learned**: 
+
+**Results**: Every run produced identical final values for context
+switches, completed processes, and waiting time.
+
+
+**What I learned**: Proper synchronization makes multithreaded programs
+behave like single-threaded ones in terms of correctness, while
+still running concurrently.
+
 
 ---
 
