@@ -322,11 +322,15 @@ identical results proving race conditions are fully eliminated.
 ### Test 2: Exception Testing
 **What I tested**: Checking for ConcurrentModificationException
 
-**Testing procedure**: 
+**Testing procedure**: Ran the program 5 times while multiple threads were
+logging simultaneously to the shared ArrayList
 
-**Results**: 
+**Results**: No ConcurrentModificationException occurred in any run.
+The log entries were recorded correctly every time.
 
-**What this proves**: 
+**What this proves**: The logLock ReentrantLock successfully prevents
+concurrent access to the ArrayList, making it completely thread-safe.
+
 
 ---
 
