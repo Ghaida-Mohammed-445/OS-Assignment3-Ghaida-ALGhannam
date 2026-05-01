@@ -412,7 +412,12 @@ Others wait until one finishes.
 
 ### How I would explain synchronization to others:
 
-Think of a car rental system with many customers. Each car can be used by only one person at a time. A mutex lock makes sure no two customers take the same car. A semaphore represents how many cars are available in total. If all cars are taken, new customers must wait. This is how synchronization controls access in programs.
+Think of a car rental system with many customers. Each car can be
+used by only one person at a time. A mutex lock makes sure no two
+customers take the same car. A semaphore represents how many cars
+are available in total. If all cars are taken, new customers must
+wait. This is exactly how synchronization controls access to shared
+resources in a multithreaded program.
 
 ---
 
