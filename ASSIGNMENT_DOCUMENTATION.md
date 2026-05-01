@@ -374,7 +374,18 @@ still running concurrently.
 
 ### What I learned about synchronization:
 
-[6-8 sentences about key concepts, challenges, insights]
+I learned that race conditions are hidden bugs that do not always
+appear immediately but can cause wrong results at any time. Using
+ReentrantLock ensures only one thread modifies a shared variable
+at a time, preventing lost updates. The try-finally pattern is
+essential because it guarantees the lock is always released even
+if an exception happens. A binary Semaphore works like a gate that
+allows only one process to use the CPU at a time. Fine-grained
+locking with separate locks for each counter allows better
+performance because threads can update different counters at the
+same time. Overall, synchronization is what makes multithreaded
+programs reliable, correct, and predictable.
+
 
 ---
 
