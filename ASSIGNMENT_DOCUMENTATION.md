@@ -4,7 +4,7 @@
 
 **Student ID**: 445052123  
 
-**Date Submitted**: [Submission Date]
+**Date Submitted**: 2 may 2026
 
 ---
 
@@ -423,15 +423,15 @@ resources in a multithreaded program.
 
 ## Part 6: GitHub Repository Information
 
-**Repository URL**: 
+**Repository URL**: https://github.com/Ghaida-Mohammed-445/OS-Assignment3-Ghaida-ALGhannam
 
-**Number of commits**: 
+**Number of commits**: 37
 
 **Commit messages**: 
-1. 
-2. 
-3. 
-4. 
+1. Set my student ID: 445052123
+2. Semaphore and ReentrantLock
+3. ReentrantLock
+4. incrementContextSwitch
 
 ---
 
