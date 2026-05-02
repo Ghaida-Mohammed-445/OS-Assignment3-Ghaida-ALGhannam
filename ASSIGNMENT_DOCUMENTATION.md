@@ -440,13 +440,16 @@ resources in a multithreaded program.
 **Total time spent on assignment**: 
 
 **Key takeaways**: 
-1. 
-2. 
-3. 
+1. Race conditions cause unpredictable bugs in multithreaded programs
+2. try-finally blocks guarantee locks are always released
+3. Semaphores control how many threads access a resource at once
 
 **Most challenging aspect**: 
-
+ Understanding where exactly to place
+acquire() and release() for the Semaphore without causing deadlock.
 **What I'm most proud of**: 
+The program runs consistently with correct
+results across all runs, proving the synchronization works perfectly.
 
 ---
 
